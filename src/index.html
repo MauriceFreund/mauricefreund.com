@@ -7,7 +7,49 @@
         <title>Maurice Freund</title>
         <link rel="stylesheet" href="style/style.css" />
     </head>
-    <body class="">
-        <h1 class="text-two-md text-4xl font-bold">Maurice Freund</h1>
+    <body>
+        <div class="mx-auto w-5/6 h-screen flex flex-col">
+            <header class="w-full flex items-center justify-between justify-self-center pt-10">
+                <h1 class="text-two-md text-4xl font-bold">
+                    <a href="index.html">Maurice Freund</a>
+                </h1>
+                <ul class="flex items-center h-full gap-8 text-xl text-gray-500">
+                    <li class="hover:text-one-md rounded-md p-1 active:bg-one-md active:text-white">
+                        <a href="">My Skills</a>
+                    </li>
+                    <li class="hover:text-two-md rounded-md p-1 active:bg-two-md active:text-white">
+                        <a href="">My Work</a>
+                    </li>
+                    <li class="hover:text-three-md rounded-md p-1 active:bg-three-md active:text-white">
+                        <a href="contact.html">Contact me </a>
+                    </li>
+                </ul>
+            </header>
+            <main class="h-full w-full flex flex-col justify-center items-center">
+                <div class="flex flex-col gap-7">
+                    <article>
+                        <h2 class="text-8xl lg:text-9xl font-bold text-one-md">Hello there!</h2>
+                        <p class="text-4xl font-semibold text-neutral-dk">
+                            My name is Maurice Freund. <br />I'm a software developer <br />
+                            and CS student from Germany
+                        </p>
+                    </article>
+                    <div class="flex gap-4">
+                        <button
+                            class="px-6 py-3 max-w-xs shadow-lg rounded-sm bg-three-md hover:bg-three-lt active:bg-three-dk"
+                        >
+                            <span class="text-xl font-bold text-white">Learn more</span>
+                        </button>
+                        <a href="contact.html">
+                            <button
+                                class="px-6 py-3 max-w-xs shadow-lg rounded-sm border-three-md border hover:bg-three-lt active:bg-three-dk"
+                            >
+                                <span class="text-xl font-bold text-three-md hover:text-white">Contact me</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </main>
+        </div>
     </body>
 </html>

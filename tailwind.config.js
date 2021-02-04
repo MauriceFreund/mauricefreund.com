@@ -19,12 +19,17 @@ module.exports = {
                     md: "#FFA400",
                     dk: "#B67600",
                 },
+                neutral: {
+                    lt: "#FFFFFF",
+                    dk: "#242424",
+                },
             },
         },
     },
     variants: {
         extend: {
             backgroundColor: ["active"],
+            textColor: ["active"],
         },
     },
     plugins: [],
