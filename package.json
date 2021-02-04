@@ -1,0 +1,26 @@
+{
+    "name": "mauricefreund.com",
+    "version": "1.0.0",
+    "description": "The personal website of Maurice Freund.",
+    "main": "index.html",
+    "scripts": {
+        "build": "npx tailwindcss-cli build ./src/style/tailwind.css -o ./src/style/style.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MauriceFreund/mauricefreund.com.git"
+    },
+    "author": "Maurice Freund",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MauriceFreund/mauricefreund.com/issues"
+    },
+    "homepage": "https://github.com/MauriceFreund/mauricefreund.com#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.2.4",
+        "cssnano": "^4.1.10",
+        "postcss": "^8.2.4",
+        "tailwindcss": "^2.0.2"
+    }
+}
